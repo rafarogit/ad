@@ -1,6 +1,6 @@
 (function() {
 //http*://www.google.com/recaptcha/
-    //var mainFunc = function(){
+    var mainFunc = function(){
         var visitButton = $('.reply_markup_button_w3')[0].getElementsByClassName('reply_markup_button')[0];
 
         var getSizeList = function(){
@@ -40,8 +40,8 @@
             }
         }, 500);
 
-   // }
-/*
+    }
+
     setTimeout(function(){
         mainFunc();
     }, 15000);
